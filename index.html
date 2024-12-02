@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+        <script src="script.js"></script>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+  }
+
+
+.blue {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: blue;
+    cursor: pointer;
+    position:  relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: blue;
+    
+}
+
+.pink {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: pink;
+    cursor: pointer;
+    position:  relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: pink;
+}
+
+.brown {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: brown;
+    cursor: pointer;
+    position:  relative;
+    z-index: 0;
+    border-radius: 12px;
+    background-color: brown;
+    
+}
+
+h1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 500%;
+    font-family: default;
+}
+
+p {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    font-size: 30px;
+    font-family: default;
+}
+img {
+    border-radius: 30px;
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    transition-duration: 0.5s;
+}
+  img:hover {
+    border-radius: 30px;
+    width: 710px;
+    height: 460px;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    transition-duration: 0.5s;
+}
+</style>
+<body>
+    <div class="btn">
+    <button onclick="Blue('male')" class="blue"></button>
+    <button onclick="Pink('female')" class="pink"></button>
+    <button onclick="Brown('old')" class="brown"></button>
+</div>
+    <h1>Welcome</h1>
+    <p id="demo">CLick the button</p>
+    <img src="gojo.webp" alt="gojo">
+</body>
+</html>
+
